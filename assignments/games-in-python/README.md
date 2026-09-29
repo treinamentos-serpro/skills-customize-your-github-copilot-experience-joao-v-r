@@ -1,19 +1,37 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Atividade: Jogo da Forca
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objetivo
 
-## 🎯 O Que Você Vai Construir
+Construir um jogo da forca em Python usando strings, listas, loops e condicionais para criar uma experiência interativa de adivinhação de palavras.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tarefas
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Preparação da palavra e do estado inicial do jogo
 
-## ✅ Requisitos Obrigatórios
+#### Descrição
+Crie uma lista com palavras, escolha uma aleatoriamente e prepare a interface inicial do jogo para o jogador.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requisitos
+O programa concluído deve:
+
+- Armazenar pelo menos 5 palavras em uma lista predefinida
+- Selecionar uma palavra aleatória para o jogo
+- Mostrar o progresso da palavra como letras ocultas, como `_ _ _ _`
+- Inicializar o número de tentativas disponíveis
+- Exibir uma mensagem de boas-vindas antes do início da partida
+
+### 🛠️ Entrada de palpites e validação da partida
+
+#### Descrição
+Permita que o usuário insira letras, atualize o estado da palavra e determine se o jogador venceu ou perdeu.
+
+#### Requisitos
+O programa concluído deve:
+
+- Ler uma letra por vez com `input()`
+- Verificar se a letra informada está presente na palavra secreta
+- Atualizar a exibição do progresso da palavra conforme o jogador acerta
+- Contabilizar tentativas incorretas e reduzir o número de chances
+- Encerrar o jogo quando a palavra for descoberta ou quando as tentativas acabarem
+- Exibir mensagens claras de vitória ou derrota ao final da partida
