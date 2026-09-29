@@ -72,6 +72,20 @@
           "type": "python"
         }
       ]
+    },
+    {
+      "id": "library-management-system",
+      "title": "Library Management System",
+      "description": "A small object-oriented Python project for modeling books, members, and borrowing in a library",
+      "path": "assignments/library-management-system",
+      "dueDate": "2026-10-06",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
